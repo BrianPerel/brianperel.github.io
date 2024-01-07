@@ -1,0 +1,174 @@
+<!--
+	My portfolio website
+	By: Brian Perel
+	Webpage Screen Size: 1440 x 757
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Home | Brian Perel</title>
+	  <meta charset="utf-8" />
+	  <meta name="keywords" content="homepage" />
+	  <meta name="author" content="Brian Perel" />
+	  <meta name="description" content="Portfolio" />
+	  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+	  <!-- MAIN CSS -->
+	  <link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+
+	  <!-- JavaScript -->
+	  <script type="text/javascript" src="js/main.js"></script>
+
+	  <!-- Bootstrap, font-awesome -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+	  <!-- JQuery -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	  <!-- JQuery -->
+	  <script>
+		$(document).ready(function() {
+			$('.hidden').slideDown(1800);
+
+			$("#img").mouseup(function() {
+				alert("Brian is at Griffith Park, Los Angeles, CA!");
+			});
+
+			$(".animate1").hide();
+			$(".animate2").hide();
+			$(".animate3").hide();
+			$(".animate4").hide();
+			$(".animate5").hide();
+
+			setTimeout(function() {
+				$(".animate1").show();
+				$(".animate2").show();
+				$(".animate3").show();
+				$(".animate4").show();
+				$(".animate5").show();
+			}, 800);
+
+			setTimeout(function() {
+				$(".animate1").animate({left: '-100px'});
+				$(".animate2").animate({left: '-50px'});
+				$(".animate3").animate({left: '51px'});
+				$(".animate4").animate({left: '100px'});
+			}, 830);
+		});
+	  </script>
+	</head>
+
+	<body>
+		<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+		<div class="hidden">
+			<!-- CONTACT -->
+			<div class="jumbotron text-center">
+				<header>
+					<br/><h1><b><script>document.write('<a href="' + linkOnePath + '">' + "Brian Perel" + '</a>')</script></b></h1><br/>
+				</header>
+			</div>
+
+			<hr class="new4" />
+
+			<!-- MENU -->
+			<div class="n">
+				<nav class="navbar navbar-expand-sm justify-content-center bg-secondary" id="capitalize">
+					<nav class="navbar navbar-expand-sm">
+					  <button class="navbar-toggler bg-light navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+							<ul class="nav justify-content-center">
+								 <nav class="navbar navbar-dark bg-secondary">
+									<nav class="navbar navbar-expand-sm bg-dark" style='border-radius: 50%; padding-left: 30px'>
+										  <script>document.write('<a class="navbar-brand" id="a" href="' + linkOnePath + '">' + linkOne + '</a>')</script>
+									</nav>
+								</nav>
+								<nav class="navbar navbar-dark bg-secondary">
+									<script>document.write('<a class="navbar-brand" id="a" href="' + linkTwoPath + '">' + linkTwo + '</a>')</script>
+								</nav>
+								<nav class="navbar navbar-dark bg-secondary">
+									<script>document.write('<a class="navbar-brand" id="a" href="' + linkThreePath + '">' + linkThree + '</a>')</script>
+								</nav>
+								<nav class="navbar navbar-dark bg-secondary">
+								  <div class="dropdown">
+									<a class="navbar-brand dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#" style='color: white'>
+										<script>document.write(linkFour)</script>
+									</a>
+									<div class="dropdown-menu dropdown-content bg-secondary" style='border: 2.5px solid black'>
+									  <script>
+										  document.write('<a class="nav-link" id="a" class="dropdown-item" href="' + sublinkOnePath + '">' + subLinkOne +
+										  	'<a class="nav-link" id="a" class="dropdown-item" href="' + sublinkTwoPath + '">' + subLinkTwo +
+											'<a class="nav-link" id="a" class="dropdown-item" href="' + sublinkThreePath + '">' + subLinkThree +
+										    '<a class="nav-link" id="no-bottom-border" class="dropdown-item"  href="' + sublinkFourPath + '">' + subLinkFour + '</a>')
+								      </script>
+									</div>
+								  </div>
+								</nav>
+								<nav class="navbar navbar-dark bg-secondary">
+									  <script>document.write('<a class="navbar-brand" id="a" href="' + linkFourPath + '">' + linkFive + '</a>')</script>
+								</nav>
+								<nav class="navbar navbar-dark bg-secondary">
+									  <script>document.write('<a class="navbar-brand" id="a" href="' + linkFivePath + '">' + linkSix + '</a>')</script>
+								</nav>
+							</ul>
+						</div>
+					 </nav>
+				 </nav>
+			</div>
+
+			<!-- SOCIAL ICON -->
+			<div class="social"><br/>
+				<div class="animate1"><a href="https://github.com/BrianPerel" target='_blank' class="fa fa-github"></a></div>
+				<div class="animate2"><a href="https://www.facebook.com/brian.perel" target='_blank' class="fa fa-facebook"></a></div>
+				<div class="animate5"><a href="https://www.youtube.com/channel/UC3FZmANc76aMCXdbcOq3NhA?view_as=subscriber" target='_blank' class="fa fa-youtube"></a></div>
+				<div class="animate3"><a href="https://www.instagram.com/bperel1/" target='_blank' class="fa fa-instagram"></a></div>
+				<div class="animate4"><a href="https://www.linkedin.com/in/brianperel/" target='_blank' class="fa fa-linkedin"></a></div><br/>
+			</div><br/>
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class='col'>
+						<br/><h2 id='capitalize'><b>Introduction</b></h2><br/>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm">
+						<div class="class1">
+							<p>Hi, welcome to my portfolio website. I'm Brian. Who am I?... I am a graduate of Framingham State University with a Bachelor of Science in Computer Science.
+						 	I have a strong interest in computers and enjoy IT and programming. Previously I worked at FSU IT Services and currently work at TJX.
+						  	I like traveling, photography, music, art, technology, martial arts, languages, hiking, rock-climbing, biking, parkour, and calisthenics.
+						  	Here you will find my completed work for my web development course and my CS projects which span heavily over networking, databases, and programming. I hope you enjoy my site!</p>
+					 	</div>
+					</div>
+
+					<div class="col-sm-5">
+						<img id='img' src="img/icons_pics/Me.jpg" alt='Me' class="img-thumbnail" />
+					</div>
+				</div>
+
+				<div class="hidden"><br/><br/>
+					<div class="back_to_top">
+						<a href="#top"><button type="button" class="btn btn-light"><img src="img/icons_pics/up_arrow.png" alt="up_arrow" /><p><script>document.write(backToTopBtnText)</script></p></button></a>
+					</div><br/><br/>
+				</div>
+			</div>
+
+			<!-- FOOTER -->
+			<div class='footer text-center'>
+				<br/><p class="text-black"><script>document.write(footerText)</script></p><br/>
+			</div>
+		</div>
+	</body>
+</html>

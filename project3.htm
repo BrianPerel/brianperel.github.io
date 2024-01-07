@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Project 3 | Brian Perel</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html" />
+	    <meta name="author" content="Brian Perel" />
+	    <meta name="description" content="Portfolio" />
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+	    <!-- MAIN CSS -->
+	    <link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+
+	    <!-- BOOTSTRAP, font-awesome -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+	    <!-- JQuery -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	    <!-- JavaScript -->
+	    <script type="text/javascript" src="js/main.js"></script>
+	</head>
+
+	<body>
+		<!-- CONTACT -->
+		<div class="jumbotron text-center">
+			<header>
+				<br/><h1><b><script>document.write('<a href="' + linkOnePath + '">' + "Brian Perel" + '</a>')</script></b></h1><br/>
+			</header>
+		</div>
+
+		<hr class="new4" />
+
+		<!-- MENU -->
+		<nav class="navbar navbar-expand-sm justify-content-center bg-secondary" id="capitalize">
+			<nav class="navbar navbar-expand-sm">
+			  <button class="navbar-toggler bg-light navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="nav justify-content-center">
+				 <nav class="navbar navbar-dark bg-secondary">
+				 	<nav class="navbar navbar-expand-sm">
+						<script>document.write('<a class="navbar-brand" id="a" href="' + linkOnePath + '">' + linkOne + '</a>')</script>
+					</nav>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+					  <script>document.write('<a class="navbar-brand" id="a" href="' + linkTwoPath + '">' + linkTwo + '</a>')</script>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+					  <script>document.write('<a class="navbar-brand" id="a" href="' + linkThreePath + '">' + linkThree + '</a>')</script>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+				  <div class="dropdown">
+					<a class="navbar-brand dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#" style='color: white'>
+					 <script>document.write(linkFour)</script>
+					</a>
+					<div class="dropdown-menu dropdown-content bg-secondary" style='border: 2.5px solid black'>
+					  <script>document.write('<a class="nav-link" id="a" class="dropdown-item" href="' + sublinkOnePath + '">' + subLinkOne +
+					  	'<a class="nav-link" id="a" class="dropdown-item" href="' + sublinkTwoPath + '">' + subLinkTwo + '</a>');
+					  </script>
+					  <nav class="navbar navbar-expand-sm bg-dark" style='border-radius: 50%; padding: 0%' id="a">
+						<script>document.write('<a class="nav-link" id="a" class="dropdown-item" href="' + sublinkThreePath + '">' + subLinkThree + '</a>')</script>
+					  </nav>
+					  <script>document.write('<a class="nav-link" id="no-bottom-border" class="dropdown-item" href="' + sublinkFourPath + '">' + subLinkFour + '</a>')</script>
+					</div>
+				  </div>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+					  <script>document.write('<a class="navbar-brand" id="a" href="' + linkFourPath + '">' + linkFive)</script></a>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+					  <script>document.write('<a class="navbar-brand" id="a" href="' + linkFivePath + '">' + linkSix)</script></a>
+				</nav>
+    			</ul>
+			  </div>
+			 </nav>
+		 </nav>
+		<br>
+
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 align='center' id='capitalize'>Online Business Database</h2><br/><br/>
+
+					<section><p>For this project, I developed a database for an online business using Oracle's MySQL DBMS</p><br/><br/>
+					<em><u>Database constraints:</u></em><br/><br/>
+					-&nbsp;The business has employees identified by a unique employee number, their first and last names, and the city where they are located<br/>
+					<br/>-&nbsp;The customers of the business are identified by a unique customer number, their first and last names, and the city where they are located.<br/>
+					<br/>-&nbsp;The items being sold by the business are identified by a unique item number, an item name, their price, and quantity in stock<br/>
+					<br/>-&nbsp;Each order placed by a customer is taken by an employee and is given a unique order number<br/>
+					<br/>-&nbsp;Each order contains specified quantities of one or more items, a date of receipt, and ship date</section><hr/><br/>
+
+					<center><br/><p style='display: inline'><em>Database Design:</em></p><a href='img/db_pics/ER_diagram.png' target='_blank' style='font-size: 18px; margin-left: 3%'>1. View Entity Relationship Diagram</a>
+					<a href='img/db_pics/relational_db_schema.png' style='margin-left: 3%; font-size: 18px' target='_blank'>2. View Relational Database Schema</a>
+					<br/><br/><br/><hr/>
+					<a href='https://github.com/BrianPerel/Business-Database-' target='_blank'>View project source code</a><hr/><br/>
+					<p><em>My database With Query Operations:</em></p>
+
+					<p>Table Creation Statements</p><br/>
+					<img src='img/db_pics/db_table_creation1.png' class="img-fluid" alt="db_table_creation1"></img>
+
+					<br/><br/><p>Table Insert Statements</p>
+					<img src='img/db_pics/db_table_creation2.png' class="img-fluid" alt="db_table_creation2"></img>
+
+					<br/><br/><p>Query Statements: Retrieve full details of all customers</p>
+					<img src='img/db_pics/db_table_creation3.png' class="img-fluid" alt="db_table_creation3"></img>
+
+					<br/><br/><p>Query Statements: Retrieve the item info of all items ordered by the customer “Tom Brady”</p>
+					<img src='img/db_pics/db_table_creation4.png' class="img-fluid" alt="db_table_creation4"></img>
+
+					<br/><br/><p>Query Statements: Retrieve the order numbers processed by the employee “Tony Romo”</p>
+					<img src='img/db_pics/db_table_creation5.png' class="img-fluid" alt="db_table_creation5"></img>
+
+					<br/><br/><p>Query Statements: Retrieve the names of customers who have ordered at least one item that costs<br/> more than $30.00</p>
+					<img src='img/db_pics/db_table_creation6.png' class="img-fluid" alt="db_table_creation6"></img>
+
+					<br/><br/><p>Query Statements: Retrieve the names of customers who order items only from employees who live in<br/> the same city as themselves</p>
+					<img src='img/db_pics/db_table_creation7.png' class="img-fluid" alt="db_table_creation7"></img>
+
+					<br/><br/><p>Query Statements: Retrieve the names and cities of employees who have taken orders for items costing<br/> more than $50.00</p>
+					<img src='img/db_pics/db_table_creation8.png' class="img-fluid" alt="db_table_creation8"></img>
+
+					<br/><br/><p>Query Statement: Retrieve the names of customers who have orders shipped the same day</p>
+					<img src='img/db_pics/db_table_creation10.png' class="img-fluid" alt="db_table_creation10"></img>
+
+					<br/><br/><p>Query Statements: Retrieve the names of customers who have not placed an order</p>
+					<img src='img/db_pics/db_table_creation11.png' class="img-fluid" alt="db_table_creation11"></img>
+
+					<br/><br/><p>Query Statements: Retrieve a list of item numbers, item names, and total quantity ordered for each item</p>
+					<img src='img/db_pics/db_table_creation12.png' class="img-fluid" alt="db_table_creation12"></img>
+
+					<br/><br/><p>Query Statements: For each employee, retrieve his/her number, name, and total sales (in dollars)</p>
+					<img src='img/db_pics/db_table_creation13.png' class="img-fluid" alt="db_table_creation13"></img>
+					</center>
+				</div>
+			</div>
+		</div>
+
+		<br/><br/><div class="back_to_top"><a href="#top"><button type="button" class="btn btn-light"><img src="img/icons_pics/up_arrow.png" /><p><script>document.write(backToTopBtnText)</script></p></button></a></div><br/><br/>
+
+		<!-- FOOTER -->
+		<div class='footer text-center'>
+			<br/><p class="text-black"><script>document.write(footerText)</script></p><br/>
+		</div>
+	</body>
+</html>

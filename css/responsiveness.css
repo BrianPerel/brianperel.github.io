@@ -1,0 +1,27 @@
+/*---------------------------------------
+     RESPONSIVE STYLES
+-----------------------------------------*/
+
+@media only screen and (min-width: 450px) {
+	header h1 {
+		font-size: 54px;
+	}
+}
+
+@media only screen and (max-width: 674px) {
+    #img {
+        margin-top: 15%;
+    }
+
+    #web {
+        margin-bottom: 8%;
+    }
+
+    #coursel-img {
+        margin-bottom: 22%;
+    }
+
+    .social {
+	    display: none;
+    }
+}

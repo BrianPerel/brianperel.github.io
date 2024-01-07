@@ -1,0 +1,415 @@
+@charset "UTF-8";
+
+/* global styles */
+body {
+	background: url(../img/background.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	max-width: 1100px;
+	min-width: 640px;
+	margin: auto;
+}
+
+input[type="radio"] {
+	cursor: pointer;
+}
+
+.mainDiv {
+	background-color: #ccffff;
+	width: 100%;
+}
+
+.mainDiv::after {
+	clear: both;
+	display: table;
+	content: "";
+}
+
+/* navigation styles */
+nav.horizontalNav {
+	padding-top: 2px;
+	padding-bottom: 10px;
+	background-color: #DEB887;
+	height: 40px;
+}
+
+nav.horizontalNav > ul > li {
+	display: block;
+	float: left;
+	width: 10%;
+	padding-left: 0;
+	padding-right: 7px;
+}
+
+nav.horizontalNav ul :hover {
+	background-color: #ff8800;
+}
+
+nav.horizontalNav a {
+	background-color: rgb(205, 195, 134);
+	display: block;
+	border: solid;
+	font-size: 14px;
+	line-height: 1.5em;
+	text-align: center;
+	width: 100%;
+}
+
+/* header styles */
+header {
+	background-color: #ccffff;
+	margin: auto;
+	padding: auto;
+	width: 80%;
+	height: 140px;
+}
+
+header h1 {
+	font: bold 35px Brush Script MT;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.head {
+	background-color: #009900;
+	margin: auto;
+	padding: 10px 10px 10px 10px;
+	width: 97.7%;
+	height: 160px;
+	position: relative;
+	border: solid orange;
+}
+
+.p25 {
+	font: italic 14px Serif;
+	text-align: center;
+}
+
+#tractors, #trucks, #machinery {
+	font-size: 24px;
+}
+
+video {
+	padding-top: 10%;
+	width: 300px;
+	height: 210px;
+}
+
+section {
+	float: left;
+	height: 700px;
+}
+
+section h2 {
+	padding-left: 10px;
+}
+
+section p {
+	padding-left: 10px;
+}
+
+.section1 {
+	background-color: #009900;
+	height: 170px;
+	padding: 5px 1px 2px 4px;
+	margin-left: 4px;
+	float: left;
+}
+
+.sectionTrucks {
+	float: left;
+	background-color: #ccffcc;
+	margin-top: 5px;
+	margin-right: 1px;
+	width: 54%;
+	padding-left: 5px;
+	margin-left: 5px;
+	height: 390px;
+}
+
+.section2 {
+	background-color: #ccffcc;
+	margin: 0 0 100px 2px;
+	width: 92%;
+	padding: 0 5px 5px 25px;
+	float: float;
+}
+
+.section2 p {
+	padding-left: 200px;
+}
+
+.section3 {
+	float: left;
+	background-color: #ccffcc;
+	margin-top: 5px;
+	margin-right: 1px;
+	width: 54%;
+	padding-left: 5px;
+	margin-left: 5px;
+}
+
+.section4S {
+	padding-right: 90px;
+	margin-bottom: 15px;
+	float: left;
+	width: 4%;
+}
+
+.section4S li {
+	font-size: 20px;
+	margin: auto;
+	padding-right: 10px;
+}
+
+.heading2 {
+	float: right;
+	margin-right: 270px;
+	text-align: center;
+}
+
+/* aside styles */
+aside {
+	background-color: #ccffcc;
+	width: 310px;
+	height: 948px;
+	float: right;
+	padding-left: 40px;
+	padding-right: 38px;
+	margin-top: 40px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+aside ol, li {
+	padding-left: 110px;
+}
+
+.aside {
+	background-color: #ccffcc;
+	width: 310px;
+	height: 960px;
+	float: right;
+	padding-left: 40px;
+	padding-right: 38px;
+	margin-top: 7px;
+}
+
+img {
+	float: left;
+	margin-right: 5px;
+	margin-top: 3px;
+}
+
+ol {
+	font-size: 18px;
+}
+
+li {
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+p {
+	font-size: 18px;
+}
+
+footer {
+	float: left;
+	background-color: #DEB887;
+	padding-left: 5px;
+	margin-bottom: 40px;
+	width: 99.5%;
+}
+
+.back_to_top {
+	font-size: 20px;
+	background-color: #ccffff;
+	color: black;
+	height: 20px;
+	padding-left: 5px;
+	clear: both;
+}
+
+/* form styles */
+.form {
+	background-color: #ccffcc;
+	margin: auto;
+	width: 98.5%;
+	padding: 5px 10px 25px 1px;
+}
+
+table {
+	margin: auto;
+	width: 70%;
+}
+
+table, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+label {
+	font-size: 18px;
+	padding: auto;
+}
+
+input {
+	font-size: 18px;
+	padding: auto;
+}
+
+option {
+	font-size: 12px;
+}
+
+div#sidebar {
+	border: solid black;
+	width: 30%;
+	height: 450px;
+	float: right;
+	background-color: #e6ffff;
+	margin-right: 5px;
+}
+
+div#two {
+	border: solid black;
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 5px;
+	height: auto;
+	float: left;
+	background-color: #e6ffff;
+}
+
+div#aboutus {
+	border: solid black;
+	width: 60%;
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	background-color: #e6ffff;
+}
+
+.section2form {
+	background-color: #ccffcc;
+	margin: 5px 5px 5px 40px;
+	width: 92%;
+	padding: auto;
+}
+
+div#customerInfo {
+	float: left;
+	width: 48%;
+	padding-left: 5px;
+}
+
+div#experience {
+	float: right;
+	width: 48%;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+div#img1 {
+	margin-top: 10px;
+	border: none;
+	padding-left: 12px;
+	height: 300px;
+}
+
+div#submit {
+	clear: right;
+}
+
+div#purpose {
+	text-align: center;
+	background-color: #ccffff;
+	width: 99%;
+	padding: 5px;
+}
+
+div#heading {
+	background-color: #ccffff;
+	width: 100%;
+	text-align: center;
+}
+
+div#col1, div#col2, div#col3 {
+	width: 28%;
+	background-color: #ccffff;
+	margin-top: 20px;
+	margin-bottom: auto;
+}
+
+div#col1 p, div#col2 p, div#col3 p {
+	font-size: 20px;
+}
+
+#col1 {
+	float: left;
+	margin-left: 15px;
+}
+
+#col2 {
+	float: left;
+	padding-left: 100px;
+}
+
+#col3 {
+	float: right;
+	margin-right: 15px;
+}
+
+.top {
+	padding: 100px;
+}
+
+Header {
+	text-align: justify;
+	font-size: 50px;
+	font-weight: 100;
+	font-family: alternate gothic;
+}
+
+.head1 {
+	background-color: #ccffcc;
+}
+
+.form {
+	background-color: #ccffcc;
+	width: 90%;
+	margin: 40px;
+	border: solid black;
+}
+
+.photo img {
+	height: 160px;
+	margin-left: 10px;
+	padding: 5px;
+	background-color: #ccffcc;
+	width: 20%;
+	display: inline;
+	background-repeat: no-repeat;
+	opacity: 10px;
+}
+
+.content p {
+	font-size: 22px;
+	margin: auto;
+	background-color: #ccffcc;
+}
+
+nav.horizontalNav a {
+	color: black;
+	display: block;
+	border: solid;
+	font-size: 14px;
+	line-height: 1.5em;
+	text-align: center;
+	width: 100%;
+}
+
+a:visited {
+    color: black;
+}

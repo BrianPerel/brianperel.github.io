@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Project 4 | Brian Perel</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html" />
+	    <meta name="author" content="Brian Perel" />
+	    <meta name="description" content="Portfolio" />
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+	    <!-- MAIN CSS -->
+	    <link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+
+	    <!-- BOOTSTRAP, font-awesome -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+	    <!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		<!-- JavaScript -->
+	    <script type="text/javascript" src="js/main.js"></script>
+	</head>
+
+	<body>
+		<!-- CONTACT -->
+		<div class="jumbotron text-center">
+			<header>
+				<br/><h1><b><script>document.write('<a href="' + linkOnePath + '">' + "Brian Perel" + '</a>')</script></b></h1><br/>
+			</header>
+		</div>
+
+		<hr class="new4" />
+
+		<!-- MENU -->
+		<nav class="navbar navbar-expand-sm justify-content-center bg-secondary" id="capitalize">
+			<nav class="navbar navbar-expand-sm">
+			  <button class="navbar-toggler bg-light navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="nav justify-content-center">
+				 <nav class="navbar navbar-dark bg-secondary">
+				 	<nav class="navbar navbar-expand-sm">
+						<script>document.write('<a class="navbar-brand" id="a" href="' + linkOnePath + '">' + linkOne + '</a>')</script>
+					</nav>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+					<script>document.write('<a class="navbar-brand" id="a" href="' + linkTwoPath + '">' + linkTwo + '</a>')</script>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+					 <script>document.write('<a class="navbar-brand" id="a" href="' + linkThreePath + '">' + linkThree + '</a>')</script>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+				  <div class="dropdown">
+					<a class="navbar-brand dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#" style='color: white'>
+					 <script>document.write(linkFour)</script>
+					</a>
+					<div class="dropdown-menu dropdown-content bg-secondary" style='border: 2.5px solid black'>
+					 <script>
+					    document.write('<a class="nav-link" id="a" class="dropdown-item" href="' + sublinkOnePath + '">' + subLinkOne +
+					    	'<a class="nav-link" id="a" class="dropdown-item" href="' + sublinkTwoPath + '">' + subLinkTwo +
+					    	'<a class="nav-link" id="a" class="dropdown-item" href="' + sublinkThreePath + '">' + subLinkThree + '</a>');
+					    </script>
+					  <nav class="navbar navbar-expand-sm bg-dark" style='border-radius: 50%; padding: 0%' id="a">
+						<script>document.write('<a class="nav-link" id="no-bottom-border" class="dropdown-item" href="' + sublinkFourPath + '">' + subLinkFour + '</a>')</script>
+					  </nav>
+					</div>
+				 </div>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+					<script>document.write('<a class="navbar-brand" id="a" href="' + linkFourPath + '">' + linkFive + '</a>')</script>
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary">
+					 <script>document.write('<a class="navbar-brand" id="a" href="' + linkFivePath + '">' + linkSix + '</a>')</script>
+				</nav>
+    			</ul>
+			  </div>
+			 </nav>
+		 </nav>
+		<br/>
+
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 align='center'>FTP Simulator</h2><br/><br/>
+						<section><p>For this project, I developed a client-server net-centric program in C that uses the FTP and TCP protocols.<br/><br/>
+						-&nbsp;The client program connects to the server side program using socket<br/>
+						-&nbsp;User must enter a valid FTP username and password<br/>
+						-&nbsp;User enters command and argument, command is sent to server<br/>
+						-&nbsp;Server program checks cmd and argument, performs appropriate implementation and returns message to client<br/>
+						-&nbsp;Client program prints reply message to user<br/>
+						-&nbsp;Example commands include: stat, help, ls, cd, pwd, rm, send, mkdir, rmdir, recv, quit<br/><br/>
+						<a href="https://github.com/BrianPerel/client-server-ftp" target="_blank">View project source code</a></p></section>
+						<br/><p>Sample images of the program in putty (UNIX terminal emulator),<br/> running both the client and server programs in 2 separate terminals:</p><br/>
+						<pre>(left column) client-side vs. (right column) server-side:</pre>
+					</div>
+					<br/><hr/>
+				</div>
+			</div>
+
+			<div class="project4_pics">
+				<img src='img/ftp_pics/1.png' />
+				<img src='img/ftp_pics/2.png' />
+				<img src='img/ftp_pics/3.png' />
+				<img src='img/ftp_pics/4.png' />
+				<img src='img/ftp_pics/5.png' />
+				<img src='img/ftp_pics/6.png' />
+				<img src='img/ftp_pics/7.png' />
+				<img src='img/ftp_pics/8.png' />
+				<img src='img/ftp_pics/9.png' />
+				<img src='img/ftp_pics/10.png' />
+				<img src='img/ftp_pics/11.png' />
+			</div>
+
+		<br/><br/><div class="back_to_top"><a href="#top"><button type="button" class="btn btn-light"><img src="img/icons_pics/up_arrow.png" /><p><script>document.write(backToTopBtnText)</script></p></button></a></div><br/>
+
+		<!-- FOOTER -->
+		<br/><div class='footer text-center'>
+			<br/><p class="text-black"><script>document.write(footerText)</script></p><br/>
+		</div>
+	</body>
+</html>

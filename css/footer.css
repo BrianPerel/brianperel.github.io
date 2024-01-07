@@ -1,0 +1,16 @@
+/*---------------------------------------
+     FOOTER              
+-----------------------------------------*/
+
+footer p {
+    background-color: #dfceae;
+    font-size: 16px;
+    height: 40px;
+}
+
+.footer {
+	outline: black solid 1.5px;
+    background: #dfceae;
+    border-top: #DAA520 solid 2px;
+    box-shadow: rgba(31, 61, 31, 0.9) 20px 0 25px, rgba(31, 61, 31, 0.9) -20px 0 25px;
+}
