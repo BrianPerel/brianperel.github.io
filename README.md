@@ -4,4 +4,4 @@ My portfolio website, hand coded from scratch incorporating bootstrap and jquery
 
 ![Picture](img/homepage_demo.png)
 
-[Check it out here](https://brianperel.github.io)
+[View the website here](https://brianperel.github.io)
