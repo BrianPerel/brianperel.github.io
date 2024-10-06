@@ -3,7 +3,7 @@
 // Append the link element for favicon to the head of all project html files
 document.head.appendChild(Object.assign(document.createElement('link'), {
   rel: 'icon',
-  href: '../img/favicon.ico',
+  href: 'img/favicon.ico',
   type: 'image/x-icon'
 }));
 
@@ -20,7 +20,7 @@ const linkOnePath = "index.htm";
 const linkTwoPath = "side_projects.htm";
 const linkThreePath = "calisthenics.htm";
 const linkFourPath = "websites.htm";
-const linkFivePath = "../gd_portfolio/Controller.htm";
+const linkFivePath = "gd_portfolio/Controller.htm";
 
 // school projects sublinks
 const subLinkOne = "ATM app";
