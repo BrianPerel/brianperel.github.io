@@ -325,8 +325,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"img/Controller_atlas_.png?1589722917513", id:"Controller_atlas_"},
-		{src:"img/Controller_atlas_2.png?1589722917514", id:"Controller_atlas_2"},
+		{src:"img/controller_atlas_.png?1589722917513", id:"Controller_atlas_"},
+		{src:"img/controller_atlas_2.png?1589722917514", id:"Controller_atlas_2"},
 		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1589722917535", id:"lib/jquery-3.4.1.min.js"},
 		{src:"components/sdk/anwidget.js?1589722917535", id:"sdk/anwidget.js"},
 		{src:"components/video/src/video.js?1589722917535", id:"an.Video"}
