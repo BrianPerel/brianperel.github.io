@@ -20,7 +20,7 @@ const linkOnePath = "index.htm";
 const linkTwoPath = "side_projects.htm";
 const linkThreePath = "calisthenics.htm";
 const linkFourPath = "websites.htm";
-const linkFivePath = "gd_portfolio/Controller.htm";
+const linkFivePath = "gd_portfolio/controller.htm";
 
 // school projects sublinks
 const subLinkOne = "ATM app";
