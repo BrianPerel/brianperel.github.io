@@ -349,11 +349,13 @@ div#col1 p, div#col2 p, div#col3 p {
 #col1 {
 	float: left;
 	margin-left: 15px;
+	height: 77%;
 }
 
 #col2 {
 	float: left;
-	padding-left: 100px;
+	padding-left: 80px;
+	height: 78%;
 }
 
 #col3 {

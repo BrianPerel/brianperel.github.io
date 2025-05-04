@@ -1,11 +1,30 @@
 /* This js file will define my website's navbar link labels and page references */
 
-// Append the link element for favicon to the head of all project html files
+// Append the link element for favicon to the head of all html files
 document.head.appendChild(Object.assign(document.createElement('link'), {
   rel: 'icon',
   href: 'img/favicon.ico',
   type: 'image/x-icon'
 }));
+
+// Defines all the meta tags and data to be used for all html files
+const metaTags = [
+  {name: "charset", content: "utf-8"},
+  {name: "author", content: "Brian Perel"},
+  {name: "description", content: "e-Portfolio"},
+  {name: "Content-Type", content: "text/html"},
+  {name: "http-equiv", content: "X-UA-Compatible", "content": "ie=edge"},
+  {name: "viewport", content: "width=device-width, initial-scale=1"}
+];
+
+// Loop through and create each meta tag dynamically and add it to the html file's head section
+metaTags.forEach(tag => {
+  const metaTag = document.createElement('meta');
+  for (let key in tag) {
+    metaTag.setAttribute(key, tag[key]);
+  }
+  document.head.appendChild(metaTag);
+});
 
 // navbar link labels
 const linkOne = "Home";
