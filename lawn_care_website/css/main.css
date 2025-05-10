@@ -46,6 +46,7 @@ nav.horizontalNav ul :hover {
 
 nav.horizontalNav a {
 	background-color: rgb(205, 195, 134);
+	color: black;
 	display: block;
 	border: solid;
 	font-size: 14px;
@@ -234,10 +235,12 @@ footer {
 /* form styles */
 .form {
 	background-color: #ccffcc;
-	margin: auto;
-	width: 98.5%;
+	width: 90%;
+	border: solid black;
+	margin: 40px;
 	padding: 5px 10px 25px 1px;
 }
+
 
 table {
 	margin: auto;
@@ -378,13 +381,6 @@ Header {
 	background-color: #ccffcc;
 }
 
-.form {
-	background-color: #ccffcc;
-	width: 90%;
-	margin: 40px;
-	border: solid black;
-}
-
 .photo img {
 	height: 160px;
 	margin-left: 10px;
@@ -400,16 +396,6 @@ Header {
 	font-size: 22px;
 	margin: auto;
 	background-color: #ccffcc;
-}
-
-nav.horizontalNav a {
-	color: black;
-	display: block;
-	border: solid;
-	font-size: 14px;
-	line-height: 1.5em;
-	text-align: center;
-	width: 100%;
 }
 
 a:visited {
