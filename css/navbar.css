@@ -13,12 +13,11 @@
 
 .verticalNav {
     padding: 18px 40px 10px 0;
-    margin-left: 10px;
+    margin: 0 0 10% 10%;
     background-color: #7EE2FF;
     border: solid black 0.1em;
     list-style-type: none;
     border-radius: 15px;
-    margin-bottom: 10%;
 }
 
 .verticalNav a {
@@ -26,11 +25,10 @@
     color: black;
     display: block;
     border: solid black 0.1em;
-    font-size: 16px;
+    font: 16px helvetica;
     line-height: 1.5em;
     text-align: center;
     text-decoration: none;
-    font-family: helvetica;
     padding-top: 2px;
 }
 

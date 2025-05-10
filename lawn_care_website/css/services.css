@@ -150,3 +150,9 @@ div.back_to_top p a {
 a:visited {
     color: black;
 }
+
+#navbarBlueHorizatalLine {
+	margin-top: 0px;
+	background-color: blue;
+    height: 2px;
+}

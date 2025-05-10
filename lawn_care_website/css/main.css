@@ -415,3 +415,9 @@ nav.horizontalNav a {
 a:visited {
     color: black;
 }
+
+#navbarBlueHorizatalLine {
+	margin-top: 0px;
+	background-color: blue;
+    height: 2px;
+}
