@@ -2,6 +2,15 @@
       NAVBAR
 -----------------------------------------*/
 
+.dropdown-menu.dropdown-content.bg-secondary {
+	border: 2.5px solid black;
+}
+
+.navbar.navbar-expand-sm.bg-dark {
+	border-radius: 50%;
+	padding-left: 30px;
+}
+
 .verticalNav {
     padding: 18px 40px 10px 0;
     margin-left: 10px;
