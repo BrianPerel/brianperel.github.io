@@ -53,9 +53,8 @@ header h1 a, header h1 a:hover {
 }
 
 .project p {
-    margin-top: 4%;
+    margin: 4% 0 0 280px;
     font-family: Georgia;
-    margin-left: 280px;
     font-size: 17px;
 }
 
@@ -72,8 +71,6 @@ header h1 a, header h1 a:hover {
 
 .class1 hr {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     height: 40px;
     background-color: #666;
 }
@@ -84,8 +81,7 @@ header h1 a, header h1 a:hover {
 
 .web {
     font-size: 35px;
-    margin-left: 500px;
-    margin-bottom: 15px;
+    margin: 0 0 15px 500px;
 }
 
 .websites {
@@ -104,8 +100,7 @@ header h1 a, header h1 a:hover {
     color: orange;
     width: 81%;
     border: solid;
-    margin-right: 200px;
-    margin-top: 30px;
+    margin-right: 30px 200px 0 0;
 }
 
 .websites img {
@@ -220,8 +215,7 @@ hr.new4 {
 
 .project4_pics img {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	text-align: center;
 	height: 50%;
 	width: 70%;
